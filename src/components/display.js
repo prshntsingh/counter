@@ -1,8 +1,8 @@
-import React,{Component} from 'react'
+import React, {Component} from 'react'
 
-const Display=(props)=>{
+const Display = (props) => {
 
-    return(
+    return (
         <div>
             <h1>{props.val}</h1>
         </div>

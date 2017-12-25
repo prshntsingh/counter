@@ -14,7 +14,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            x :0,
+            x: 0,
             dis: 0
         };
 
@@ -24,7 +24,7 @@ class App extends Component {
 
 
     ite(s) {
-        if(this.state.x !== 0) {
+        if (this.state.x !== 0) {
             clearInterval(this.state.x);
             this.state.x = 0;
         }

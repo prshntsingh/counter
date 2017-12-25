@@ -6,8 +6,8 @@ const PlusButton = (props) => {
     return (
 
         <Button bsStyle='success' onClick={() => {
-                props.onadd()
-             }}>+</Button>
+            props.onadd()
+        }}>+</Button>
 
         // {/*<button className= "button" onClick={() => {*/}
         //     {/*props.onadd()*/}
